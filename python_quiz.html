@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Python quiz</title>
+		<link rel="stylesheet" href="python_quiz.css">
+	</head>
+	<body>
+		<div id="quiz">
+			<h1>Python quiz</h1>
+			<hr>
+			<p id="question"></p>
+			<div id="answers">
+				<button class="answer" id="btn1" onclick="checkAnswer(this.id)"></button>
+				<button class="answer" id="btn2" onclick="checkAnswer(this.id)"></button>
+				<button class="answer" id="btn3" onclick="checkAnswer(this.id)"></button>
+				<button class="answer" id="btn4" onclick="checkAnswer(this.id)"></button>
+			</div>
+			<p id="score"></p>
+			<button id="next" onclick="printNextQuestion()"></button>
+		</div>
+		<script src="python_quiz.js"></script>
+	</body>
+</html>
